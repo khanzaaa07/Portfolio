@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
+<button id="darkModeToggle">🌙 Toggle Dark Mode</button><br>
   <div class="container">
     <div class="card">
      <img src="khansa.jpg" alt="Khansa's photo" class="profile-pic" />
@@ -21,5 +22,12 @@
 
     </div>
   </div>
+<script>
+  const toggle = document.getElementById('darkModeToggle');
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+  });
+</script>
+
 </body>
 </html>

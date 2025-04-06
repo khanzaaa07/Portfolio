@@ -12,6 +12,21 @@ body {
   align-items: center;
   height: 100vh;
 }
+body.dark-mode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+#darkModeToggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 
 .container {
   width: 100%;
